@@ -1,4 +1,4 @@
-package com.nas.departmentservice.model;
+package com.nas.employeeservice.model;
 
 public record Employee(Long id, Long departmentId, String name, int age, String position) {
 }
